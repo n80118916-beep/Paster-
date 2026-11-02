@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "revival",
+  "version": "1.0",
+  "name": "Revival Client",
+  "description": "Revival Client",
+  "authors": ["Revival"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "revival.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.16.5",
+    "fabric-api": "*"
+  }
+}
